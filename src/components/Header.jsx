@@ -12,6 +12,10 @@ const Header = ({ highScore, setHighScore, points }) => {
     <div className="header-container">
       <div className="left_header-container">
         <h1>Pokemon Memory Game</h1>
+        <p>
+          Get points by clicking on an image but don't click on any more than
+          once!
+        </p>
       </div>
       <div className="right_header-container">
         <h4>Current Points: {points}</h4>
