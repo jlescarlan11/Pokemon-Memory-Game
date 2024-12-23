@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 1.6rem;
+  box-shadow: 0 1px 2px var(--secondary-color);
+  overflow: hidden;
+  transition: transform 0.2s;
+  width: 20rem;
+  margin: 1.6rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.image-container {
+  background-color: var(--background-color);
+  padding: 1.6rem;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.card-name {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.card-name h3 {
+  margin: 0;
+  color: var(--text-color);
+}

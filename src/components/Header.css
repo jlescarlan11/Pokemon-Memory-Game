@@ -1,0 +1,6 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem;
+  border-bottom: 1px solid var(--accent-color-2);
+}

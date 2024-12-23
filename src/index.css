@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-weight: 400;
+
+  --text-color: rgb(34, 40, 49);
+  --secondary-color: rgb(57, 62, 70);
+  --primary-color: rgb(255, 211, 105);
+  --background-color: rgb(238, 238, 238);
+  --accent-color: rgba(34, 40, 49, 0.05);
+  --accent-color-2: rgba(34, 40, 49, 0.1);
+
+  text-size-adjust: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
